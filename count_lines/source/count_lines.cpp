@@ -55,10 +55,9 @@ unsigned long countFile(std::string filename, unsigned long &blank) {
         std::cerr << "Could not open file: " << filename << "\n";
         return 0;
     }
-    while(!file.eof()) {
-        std::string line;
-        std::getline(file, line);
-        if(file && lineEmpty(line) == false) {
+    std::string line;
+    while(std::getline(file, line)) {
+        if(lineEmpty(line) == false) {
             ++counter;
         } else {
             ++blank;
