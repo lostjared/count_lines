@@ -2,7 +2,12 @@
 
 # count_lines
 
+![image](https://github.com/user-attachments/assets/bfccd490-2b57-4e67-ad13-267b64e42aae)
+
+
 ## Description
+
+* Update now contains  User interface with Qt6
 
 This project consists of a C++ program designed to recursively traverse directories to find source files with specific extensions (`.cpp`, `.h`, `.hpp`, `.c`, `.cc`, `.cxx`, `.m`, `.mm`) and count the number of lines, distinguishing between code lines and blank lines. It's useful for developers or teams who want to analyze the size of their codebase or monitor its growth over time.
 
